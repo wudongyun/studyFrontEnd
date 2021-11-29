@@ -1,0 +1,8 @@
+条件语句
+v-if
+<div id="conditional-rendering">
+  <span v-if="seen">现在你看到我了</span>
+</div>
+
+能不能看到看seen的值时候为true
+

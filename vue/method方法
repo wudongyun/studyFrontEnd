@@ -1,0 +1,13 @@
+method
+
+在method中给vue定义方法，格式如下
+var vm = new Vue({
+    methods:{
+        // 在此时定义方法，方法之间使用逗号分隔
+        方法名:function(){}
+});
+
+在方法中访问属性 data中的数据
+1，在 methods 方法中访问 data 的数据，可以直接通过 this.属性名 的形式来访问。
+2，如果是在 Vue 构造函数外部，可以使用 vm.方法名 定义或调用方法，还可以通过 vm.$data.属性名 来访问 data 中的数据。
+

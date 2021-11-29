@@ -1,0 +1,42 @@
+export default
+export
+vue是单组件的，即一个文件一个模块，别的文件访问不到，通过export导出，通过import导入
+
+export default和export的区别
+
+export可以导出很多变量，而export default只能导出默认的一个
+
+export default
+export default 只能导出一个默认模块，这个模块可以匿名，例如：
+//demo1.js
+export default {
+    a: 'hello',
+    b: 'world'      
+}
+对应的引入方式：
+//demo2.js
+import obj from 'demo1'
+引入的对象可以自己命名
+
+
+export
+//demo1.js
+export const str = 'hello world'
+
+export function f(a){
+    return a+1
+}
+引入方式
+//demo2.js
+import { str, f } from 'demo1'
+
+
+
+
+
+
+
+
+
+
+原文链接：https://blog.csdn.net/qq_27674439/article/details/108094742

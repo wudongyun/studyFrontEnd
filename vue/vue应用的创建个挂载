@@ -1,0 +1,13 @@
+ue3 中的应用是通过使用 createApp 函数来创建的，语法格式如下：
+
+const app = Vue.createApp({ /* 选项 */ })
+传递给 createApp 的选项用于配置根组件。在使用 mount() 挂载应用时，该组件被用作渲染的起点。
+
+一个简单的实例：
+
+Vue.createApp(HelloVueApp).mount('#hello-vue')
+createApp 的参数是根组件（HelloVueApp），在挂载应用时，该组件是渲染的起点。
+
+一个应用需要被挂载到一个 DOM 元素中，以上代码使用 mount('#hello-vue') 将 Vue 应用 HelloVueApp 挂载到 <div id="hello-vue"></div> 中。
+
+https://www.cnblogs.com/emanlee/p/15158934.html

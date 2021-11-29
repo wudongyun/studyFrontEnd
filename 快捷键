@@ -1,0 +1,9 @@
+代码的格式化，ctrl+alt+l
+
+自动换行
+1、ctrl+shift+p，打开命令窗口；输入settings，打开open user settings
+2、commly used，直接ctrl+f，搜索wrap，找到editor:word wrap，点击它
+Controls the wrapping column of the editor when Editor: Word Wrap is wordWrapColumn or bounded.
+3、将word wrap的off改成on，即可换行了
+
+

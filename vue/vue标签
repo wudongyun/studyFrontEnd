@@ -1,0 +1,16 @@
+<selectWrapper :value="selectValue"></selectWrapper>
+这是一个组件，抽离封装好的选择的组件，用的使用直接引用
+1，<selectWrapper :value="selectValue"></selectWrapper>对于组件的使用
+2，import SelectWrapper from '../components/SelectWrapper';从组件目录下面引入组件
+3，export default {
+  components: {
+    lineChart,
+    Rank,
+    InfoCard,
+    SelectWrapper
+  }}    注册组件，注册后可以在当前的vue文件里面是使用
+4，组件的创建：一个vue文件可以直接当成一个组件
+
+
+
+

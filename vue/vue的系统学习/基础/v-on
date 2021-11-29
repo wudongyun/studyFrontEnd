@@ -1,0 +1,10 @@
+为了让用户和应用进行交互，我们可以用 v-on 指令添加一个事件监听器，通过它调用在实例中定义的方法：
+
+<div id="event-handling">
+  <p>{{ message }}</p>
+  <button v-on:click="reverseMessage">反转 Message</button>
+</div>
+
+click后面的是点击后，调用的函数
+注意在这个方法中，我们更新了应用的状态，但没有触碰 DOM——所有的 DOM 操作都由 Vue 来处理，你编写的代码只需要关注逻辑层面即可。
+

@@ -1,0 +1,26 @@
+mvvm
+是前端视图层的分成开发思想，把前端的界面分成m，v，vm三层结构，m是model成模型，是数据单纯存储的层，v是视图层view，存放html结构，vm管理v，和m成，实现调度
+m---vm----v
+
+处理过程：
+view---（请求）---app.js---router.js---controller---modele层
+view：视图层，用户可以看到操作的视图
+发送请求到app.js，进行处理，通过router路由，通过controller处理一些业务，通过model处理一些数据
+
+html部分
+{{ xxx }} 插值表达式：存在闪烁问题，但不会覆盖元素中原本的内容
+v-cloak：解决插值表达式闪烁的问题
+v-text：没有闪烁问题且覆盖元素中原本的内容，内容当作字符串显示
+v-html：没有闪烁问题且覆盖元素中原本的内容，内容当作html显示
+v-bind：Vue提供的属性绑定机制  缩写是 :
+v-on： Vue提供的事件绑定机制  缩写是 @
+v-model：可以实现表单元素和 Model 中数据的双向绑定，只能运用再表单元素中
+
+
+
+
+
+
+
+
+https://blog.csdn.net/qq_37143673/article/details/85624389

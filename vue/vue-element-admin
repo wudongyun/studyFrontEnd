@@ -1,0 +1,20 @@
+一，vue-element-admin
+    是一个后台前端解决方案，通过vue和element-ui一起实现的
+    动态路由？
+    权限认证？
+
+二，建议
+本项目的定位是后台集成方案，不太适合当基础模板来进行二次开发。因为本项目集成了很多你可能用不到的功能，会造成不少的代码冗余。如果你的项目不关注这方面的问题，也可以直接基于它进行二次开发。
+    集成方案: vue-element-admin
+    基础模板: vue-admin-template
+    桌面终端: electron-vue-admin
+    Typescript 版: vue-typescript-admin-template (鸣谢: @Armour)
+    Others: awesome-project
+
+DOM文档对象模型
+
+vue的指令
+v-：便是vue的指令
+
+
+

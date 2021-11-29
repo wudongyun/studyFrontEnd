@@ -1,0 +1,9 @@
+v-else必须紧跟在e-if后面或者v-else-if后面，否则，不会被识别
+
+<div v-if="Math.random() > 0.5">
+  Now you see me
+</div>
+<div v-else>
+  Now you don't
+</div>
+

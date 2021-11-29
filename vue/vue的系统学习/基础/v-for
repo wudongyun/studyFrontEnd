@@ -1,0 +1,13 @@
+<div id="list-rendering">
+  <ol>
+    <li v-for="todo in todos">
+      {{ todo.text }}
+    </li>
+  </ol>
+</div>
+
+循环结构
+v-for " tool in tools“
+
+循环tools里面的数据，有多少个数据，就有多少个li
+

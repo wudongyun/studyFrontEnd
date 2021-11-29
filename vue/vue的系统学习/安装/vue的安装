@@ -1,0 +1,24 @@
+
+#将 Vue.js 添加到项目中主要有四种方式：
+    在页面上以 CDN 包的形式导入。
+    下载 JavaScript 文件并自行托管。
+    使用 npm 安装它。
+    使用官方的 CLI 来构建一个项目，它为现代前端工作流程提供了功能齐备的构建设置 (例如，热重载、保存时的提示等等)。
+
+#在界面上以cdn包的形式导入
+1，<script src="https://unpkg.com/vue@next"></script>
+
+#下载js文件，自行托管
+1，跟cdn差不多，通过script 中的src引入
+
+#npm安装vue
+在用 Vue 构建大型应用时推荐使用 npm 安装[1] 。npm 能很好地和诸如 webpack 或 Rollup 模块打包器配合使用。
+1，最新稳定版
+$ npm install vue@next
+
+#命令行工具cli
+1，yarn global add @vue/cli
+或
+2，npm install -g @vue/cli
+
+
